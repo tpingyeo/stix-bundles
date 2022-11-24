@@ -1,0 +1,363 @@
+{
+    "type": "bundle",
+    "id": "bundle--3abd59a4-2ba9-4b9c-b73f-96ac1a2177ec",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "identity",
+            "id": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
+            "name": "qradar",
+            "created": "2020-09-30T16:27:37.320Z",
+            "modified": "2020-09-30T16:27:37.320Z",
+            "identity_class": "events"
+        },
+        {
+            "id": "observed-data--6f1a4f25-dce5-4b08-97f2-cac1e78729c9",
+            "type": "observed-data",
+            "created_by_ref": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
+            "created": "2020-09-30T16:27:37.320Z",
+            "modified": "2020-09-30T16:27:37.320Z",
+            "objects": {
+                "0": {
+                    "type": "ipv4-addr",
+                    "value": "9.28.234.169",
+                    "resolves_to_refs": [
+                        "2"
+                    ]
+                },
+                "1": {
+                    "type": "network-traffic",
+                    "src_ref": "0",
+                    "src_port": 0,
+                    "dst_ref": "3",
+                    "dst_port": 0,
+                    "protocols": [
+                        "reserved"
+                    ]
+                },
+                "2": {
+                    "type": "mac-addr",
+                    "value": "00:00:00:00:00:00"
+                },
+                "3": {
+                    "type": "ipv4-addr",
+                    "value": "127.0.0.1",
+                    "resolves_to_refs": [
+                        "4"
+                    ]
+                },
+                "4": {
+                    "type": "mac-addr",
+                    "value": "00:00:00:00:00:00"
+                },
+                "5": {
+                    "type": "artifact",
+                    "payload_bin": "U2VwIDMwIDA5OjI0OjU5IDEyNy4wLjAuMSAgW1t0eXBlPWNvbS5ldmVudGdub3Npcy5zeXN0ZW0uVGhyZWFkZWRFdmVudFByb2Nlc3Nvcl1bcGFyZW50PWJlbnRlc3QudGVzdDplY3MtZXAvTVBDL01hZ2lzdHJhdGUxL01QQ11dIGNvbS5pYm0uc2kubXBjLm1hZ2kuT2ZmZW5zZU1hbmFnZXJEZWxlZ2F0ZTogW0lORk9dIFtOT1Q6MDAwMDAwNjAwMF1bOS4yOC4yMzQuMTY5Ly0gLV0gWy0vLSAtXTAgQUNUSVZFIG9mZmVuc2VzIG1hZGUgRE9STUFOVCBhZnRlciAxODAwMDAwIG1zZWNzIG9mIDMK"
+                }
+            },
+            "x_ibm_ariel": {
+                "event_name": "Information Message",
+                "qid": 38750003,
+                "category_name": "Information",
+                "category_id": 8052,
+                "high_level_category_name": "System",
+                "high_level_category_id": 8000,
+                "log_source_id": 65,
+                "device_type": 147,
+                "log_source_type_name": "System Notification",
+                "log_source_name": "System Notification-2 :: bentest",
+                "direction": "R2R",
+                "identity_ip": "0.0.0.0",
+                "magnitude": 3,
+                "severity": 2,
+                "credibility": 10,
+                "relevance": 1,
+                "geographic": "NorthAmerica.UnitedStates",
+                "cre_event_list": [
+                    "100090",
+                    "100205",
+                    "100211",
+                    "100356",
+                    "100555",
+                    "100249",
+                    "100246"
+                ],
+                "rule_names": [
+                    "BB:NetworkDefinition: Honeypot like Addresses",
+                    "Destination Asset Weight is Low",
+                    "Source Asset Weight is Low",
+                    "offense",
+                    "ECBB:CategoryDefinition: Destination IP is a Third Country/Region",
+                    "BB:NetworkDefinition: Darknet Addresses",
+                    "Load Basic Building Blocks"
+                ],
+                "domain_id": 0,
+                "domain_name": "Default Domain"
+            },
+            "first_observed": "2020-09-30T16:24:59.988Z",
+            "last_observed": "2020-09-30T16:25:59.988Z",
+            "number_observed": 1
+        },
+        {
+            "id": "observed-data--18a1dc35-8ceb-4609-b73b-d8446f78ee38",
+            "type": "observed-data",
+            "created_by_ref": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
+            "created": "2020-09-30T16:27:37.947Z",
+            "modified": "2020-09-30T16:27:37.947Z",
+            "objects": {
+                "0": {
+                    "type": "ipv4-addr",
+                    "value": "9.28.234.169",
+                    "resolves_to_refs": [
+                        "2"
+                    ]
+                },
+                "1": {
+                    "type": "network-traffic",
+                    "src_ref": "0",
+                    "src_port": 0,
+                    "dst_ref": "3",
+                    "dst_port": 0,
+                    "protocols": [
+                        "reserved"
+                    ]
+                },
+                "2": {
+                    "type": "mac-addr",
+                    "value": "00:00:00:00:00:00"
+                },
+                "3": {
+                    "type": "ipv4-addr",
+                    "value": "127.0.0.1",
+                    "resolves_to_refs": [
+                        "4"
+                    ]
+                },
+                "4": {
+                    "type": "mac-addr",
+                    "value": "00:00:00:00:00:00"
+                },
+                "5": {
+                    "type": "artifact",
+                    "payload_bin": "U2VwIDMwIDA5OjI1OjAwIDEyNy4wLjAuMSBub3RpZmljYXRpb25fbG9nX2NsYXNzaWZpZXIucGwgWzI5MjY1XSBxZmxvdzogW0lORk9dIFtOT1Q6MDAwMDAwNjAwMF1bOS4yOC4yMzQuMTY5Ly0gLV0gWy0vLSAtXSBbMTYwMTQ4MzA0MF0gU3RhdHMgZm9yIFBhY2tldFNvdXJjZSBOSUM6IGV0aDEgUGFja2V0c0BUaHJlYWQgSW5kZXg6IDAgUGFja2V0cyBSZWNlaXZlZDogMzA5OSBQYWNrZXRzIERyb3BwZWQ6IDAgUGFja2V0IFJhdGU6IDUxL3NlYyBQcm9jZXNzZWQgUGFja2V0IFJhdGU6IDUxL3NlYyBQY2FwQ2FsbEJhY2sgUGFja2V0czogODM4MzEzODkK"
+                }
+            },
+            "x_ibm_ariel": {
+                "event_name": "Information Message",
+                "qid": 38750003,
+                "category_name": "Information",
+                "category_id": 8052,
+                "high_level_category_name": "System",
+                "high_level_category_id": 8000,
+                "log_source_id": 65,
+                "device_type": 147,
+                "log_source_type_name": "System Notification",
+                "log_source_name": "System Notification-2 :: bentest",
+                "direction": "R2R",
+                "identity_ip": "0.0.0.0",
+                "magnitude": 3,
+                "severity": 2,
+                "credibility": 10,
+                "relevance": 1,
+                "geographic": "NorthAmerica.UnitedStates",
+                "cre_event_list": [
+                    "100090",
+                    "100205",
+                    "100211",
+                    "100356",
+                    "100555",
+                    "100249",
+                    "100246"
+                ],
+                "rule_names": [
+                    "BB:NetworkDefinition: Honeypot like Addresses",
+                    "Destination Asset Weight is Low",
+                    "Source Asset Weight is Low",
+                    "offense",
+                    "ECBB:CategoryDefinition: Destination IP is a Third Country/Region",
+                    "BB:NetworkDefinition: Darknet Addresses",
+                    "Load Basic Building Blocks"
+                ],
+                "domain_id": 0,
+                "domain_name": "Default Domain"
+            },
+            "first_observed": "2020-09-30T16:25:00.159Z",
+            "last_observed": "2020-09-30T16:25:00.159Z",
+            "number_observed": 1
+        },
+        {
+            "id": "observed-data--17be7260-87f9-4539-bcb5-a7173b7d4805",
+            "type": "observed-data",
+            "created_by_ref": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
+            "created": "2020-09-30T16:27:37.966Z",
+            "modified": "2020-09-30T16:27:37.966Z",
+            "objects": {
+                "0": {
+                    "type": "ipv4-addr",
+                    "value": "9.28.234.169",
+                    "resolves_to_refs": [
+                        "2"
+                    ]
+                },
+                "1": {
+                    "type": "network-traffic",
+                    "src_ref": "0",
+                    "src_port": 0,
+                    "dst_ref": "3",
+                    "dst_port": 0,
+                    "protocols": [
+                        "reserved"
+                    ]
+                },
+                "2": {
+                    "type": "mac-addr",
+                    "value": "00:00:00:00:00:00"
+                },
+                "3": {
+                    "type": "ipv4-addr",
+                    "value": "127.0.0.1",
+                    "resolves_to_refs": [
+                        "4"
+                    ]
+                },
+                "4": {
+                    "type": "mac-addr",
+                    "value": "00:00:00:00:00:00"
+                },
+                "5": {
+                    "type": "artifact",
+                    "payload_bin": "U2VwIDMwIDA5OjI1OjAwIDEyNy4wLjAuMSBub3RpZmljYXRpb25fbG9nX2NsYXNzaWZpZXIucGwgWzI5MjY1XSBxZmxvdzogW0lORk9dIFtOT1Q6MDAwMDAwNjAwMF1bOS4yOC4yMzQuMTY5Ly0gLV0gWy0vLSAtXSBbMTYwMTQ4MzA0MF0gVG90YWwgUGFja2V0U291cmNlIE5JQzogZXRoMSBUb3RhbCBQYWNrZXRzIHJlY2VpdmVkOiAzMDk5IFRvdGFsIFBhY2tldHMgRHJvcHBlZDogMCBUb3RhbCBQYWNrZXQgUmF0ZTogNTEvc2VjIFRvdGFsIFByb2Nlc3NlZCBQYWNrZXQgUmF0ZTogNTEvc2VjCg=="
+                }
+            },
+            "x_ibm_ariel": {
+                "event_name": "Information Message",
+                "qid": 38750003,
+                "category_name": "Information",
+                "category_id": 8052,
+                "high_level_category_name": "System",
+                "high_level_category_id": 8000,
+                "log_source_id": 65,
+                "device_type": 147,
+                "log_source_type_name": "System Notification",
+                "log_source_name": "System Notification-2 :: bentest",
+                "direction": "R2R",
+                "identity_ip": "0.0.0.0",
+                "magnitude": 3,
+                "severity": 2,
+                "credibility": 10,
+                "relevance": 1,
+                "geographic": "NorthAmerica.UnitedStates",
+                "cre_event_list": [
+                    "100090",
+                    "100205",
+                    "100211",
+                    "100356",
+                    "100555",
+                    "100249",
+                    "100246"
+                ],
+                "rule_names": [
+                    "BB:NetworkDefinition: Honeypot like Addresses",
+                    "Destination Asset Weight is Low",
+                    "Source Asset Weight is Low",
+                    "offense",
+                    "ECBB:CategoryDefinition: Destination IP is a Third Country/Region",
+                    "BB:NetworkDefinition: Darknet Addresses",
+                    "Load Basic Building Blocks"
+                ],
+                "domain_id": 0,
+                "domain_name": "Default Domain"
+            },
+            "first_observed": "2020-09-30T16:25:00.159Z",
+            "last_observed": "2020-09-30T16:25:00.159Z",
+            "number_observed": 1
+        },
+        {
+            "id": "observed-data--769e2680-e483-4c66-9bff-c26258965450",
+            "type": "observed-data",
+            "created_by_ref": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
+            "created": "2020-09-30T16:27:37.984Z",
+            "modified": "2020-09-30T16:27:37.984Z",
+            "objects": {
+                "0": {
+                    "type": "ipv4-addr",
+                    "value": "9.28.234.169",
+                    "resolves_to_refs": [
+                        "2"
+                    ]
+                },
+                "1": {
+                    "type": "network-traffic",
+                    "src_ref": "0",
+                    "src_port": 0,
+                    "dst_ref": "3",
+                    "dst_port": 0,
+                    "protocols": [
+                        "reserved"
+                    ]
+                },
+                "2": {
+                    "type": "mac-addr",
+                    "value": "00:00:00:00:00:00"
+                },
+                "3": {
+                    "type": "ipv4-addr",
+                    "value": "127.0.0.1",
+                    "resolves_to_refs": [
+                        "4"
+                    ]
+                },
+                "4": {
+                    "type": "mac-addr",
+                    "value": "00:00:00:00:00:00"
+                },
+                "5": {
+                    "type": "artifact",
+                    "payload_bin": "U2VwIDMwIDA5OjI1OjAwIDEyNy4wLjAuMSBub3RpZmljYXRpb25fbG9nX2NsYXNzaWZpZXIucGwgWzI5MjY1XSBxZmxvdzogW0lORk9dIFtOT1Q6MDAwMDAwNjAwMF1bOS4yOC4yMzQuMTY5Ly0gLV0gWy0vLSAtXSBbMTYwMTQ4MzA0MF0gVG90YWwgUGFja2V0U291cmNlIE5JQzogZXRoMCBUb3RhbCBQYWNrZXRzIHJlY2VpdmVkOiA2MjY3IFRvdGFsIFBhY2tldHMgRHJvcHBlZDogMCBUb3RhbCBQYWNrZXQgUmF0ZTogMTA0L3NlYyBUb3RhbCBQcm9jZXNzZWQgUGFja2V0IFJhdGU6IDEwNC9zZWMK"
+                }
+            },
+            "x_ibm_ariel": {
+                "event_name": "Information Message",
+                "qid": 38750003,
+                "category_name": "Information",
+                "category_id": 8052,
+                "high_level_category_name": "System",
+                "high_level_category_id": 8000,
+                "log_source_id": 65,
+                "device_type": 147,
+                "log_source_type_name": "System Notification",
+                "log_source_name": "System Notification-2 :: bentest",
+                "direction": "R2R",
+                "identity_ip": "0.0.0.0",
+                "magnitude": 3,
+                "severity": 2,
+                "credibility": 10,
+                "relevance": 1,
+                "geographic": "NorthAmerica.UnitedStates",
+                "cre_event_list": [
+                    "100090",
+                    "100205",
+                    "100211",
+                    "100356",
+                    "100555",
+                    "100249",
+                    "100246"
+                ],
+                "rule_names": [
+                    "BB:NetworkDefinition: Honeypot like Addresses",
+                    "Destination Asset Weight is Low",
+                    "Source Asset Weight is Low",
+                    "offense",
+                    "ECBB:CategoryDefinition: Destination IP is a Third Country/Region",
+                    "BB:NetworkDefinition: Darknet Addresses",
+                    "Load Basic Building Blocks"
+                ],
+                "domain_id": 0,
+                "domain_name": "Default Domain"
+            },
+            "first_observed": "2020-09-30T16:25:00.159Z",
+            "last_observed": "2020-09-30T16:25:00.159Z",
+            "number_observed": 1
+        }
+    ]
+}
