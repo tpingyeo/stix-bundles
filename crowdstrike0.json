@@ -3,7 +3,7 @@
     "spec_version": "2.0",
     "objects": [
         {
-            "name": "Carbon Black",
+            "name": "CrowdStrike",
             "identity_class": "events",
             "type": "identity",
             "id": "identity--dd0353ca-a814-425e-bf72-800df9bc523f",
